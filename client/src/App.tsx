@@ -58,7 +58,7 @@ function App() {
 
       if (profileObj) {
         const response = await fetch(
-          "https://refine-dashboard-1av0.onrender.com/",
+          "https://refine-dashboard-1av0.onrender.com/api/v1/users",
           {
             method: "POST",
             headers: { "Content-Type": "application/json" },
